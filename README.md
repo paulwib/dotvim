@@ -8,8 +8,8 @@ Installation
 
 From your homedirectory:
 
-    git --recursive clone git://github.com/dotvim/dotvim.git .vim
-    cp .vim/templates/vimrc-example .vimrc
+    git --recursive clone git://github.com/dotvim/dotvim.git ~/.vim
+    cp .vim/templates/vimrc-example ~/.vimrc
 
 General configuration
 ---------------------
