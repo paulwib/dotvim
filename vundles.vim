@@ -14,8 +14,8 @@ Bundle 'gmarik/vundle'
 " General
 if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
-  Bundle 'altercation/vim-colors-solarized'
-  Bundle 'spf13/vim-colors'
+  "Bundle 'altercation/vim-colors-solarized'
+  "Bundle 'spf13/vim-colors'
   Bundle 'tpope/vim-surround'
   Bundle 'AutoClose'
   Bundle 'kien/ctrlp.vim'
@@ -24,7 +24,7 @@ if count(g:vundles, 'general')
   Bundle 'Lokaltog/vim-powerline'
   Bundle 'Lokaltog/vim-easymotion'
   Bundle 'jistr/vim-nerdtree-tabs'
-  Bundle 'flazz/vim-colorschemes'
+  Bundle 'paulwib/vim-colorschemes'
   Bundle 'corntrace/bufexplorer'
   Bundle 'kien/ctrlp.vim'
   Bundle 'austintaylor/vim-indentobject'
@@ -59,7 +59,9 @@ endif
 " Python
 if count(g:vundles, 'python')
   " Pick either python-mode or pyflakes & pydoc
-  Bundle 'klen/python-mode'
+  "Bundle 'klen/python-mode'
+  Bundle 'kevinw/pyflakes'
+  Bundle 'fs111/pydoc.vim'
   Bundle 'python.vim'
   Bundle 'python_match.vim'
   Bundle 'pythoncomplete'

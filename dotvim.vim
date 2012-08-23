@@ -5,7 +5,7 @@
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
-"
+"   Paul Willoughby <paul@fivetide.com>
 "
 
 set nocompatible
@@ -40,7 +40,7 @@ set shell=$SHELL        " use current shell for shell commands
 set autowriteall        " Automatically save before commands like :next and :make
 set hidden              " enable multiple modified buffers
 set history=1000
-set autoread            " automatically read feil that has been changed on disk and doesn't have changes in vim
+set autoread            " automatically read file that has been changed on disk and doesn't have changes in vim
 set backspace=indent,eol,start
 set guioptions-=T       " disable toolbar"
 set completeopt=menuone,preview
@@ -78,9 +78,9 @@ endif
 " folding
 if has("folding")
   set foldcolumn=0        " columns for folding
-  set foldmethod=indent
+  set foldmethod=syntax
   set foldlevel=9
-  set nofoldenable        "dont fold by default "
+  set nofoldenable        " dont fold by default "
 endif
 
 if has("user_commands")
@@ -114,4 +114,3 @@ if has("user_commands")
     let VundleInstalled=1
   endif
 endif
-
