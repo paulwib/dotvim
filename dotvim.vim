@@ -24,9 +24,9 @@ set ruler               " line and column number of the cursor position
 set wildmenu            " enhanced command completion
 set visualbell          " use visual bell instead of beeping
 set laststatus=2        " always show the status lines
-set list listchars=tab:→\ ,trail:▸
+"set list listchars=tab:→\ ,trail:▸
 set cursorline
-set clipboard=unnamed
+"set clipboard=unnamed
 
 " highlight spell errors
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
@@ -80,7 +80,7 @@ if has("folding")
   set foldcolumn=0        " columns for folding
   set foldmethod=syntax
   set foldlevel=9
-  set nofoldenable        " dont fold by default "
+  set nofoldenable        " dont fold by default
 endif
 
 if has("user_commands")
