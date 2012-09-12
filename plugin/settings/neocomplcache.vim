@@ -8,7 +8,10 @@
 "
 "
 
-let g:neocomplcache_enable_at_startup = 1
+" This is pointless here as settings loaded after plugin, so this must be in
+" your vimrc ro you need ot manually :NeoComplCacheEnable
+" let g:neocomplcache_enable_at_startup = 1
+let g:neocomplcache_enable_auto_select = 1
 let g:neocomplcache_enable_camel_case_completion = 1
 let g:neocomplcache_enable_underbar_completion = 1
 let g:neocomplcache_enable_smart_case = 1
@@ -21,9 +24,7 @@ inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 inoremap <expr><S-TAB>  pumvisible() ? "\<C-p>" : "\<S-TAB>"
 
 " SuperTab like snippets behavior.
-" PW 12 Sept 2012 - This totally breaks for me, clicking tab key generates a
-" bunch of errors, v.annoying so disabled until work out how to fix
-"imap <expr><TAB> neocomplcache#sources#snippets_complete#expandable() ?  "\<Plug>(neocomplcache_snippets_expand)" : pumvisible() ? "\<C-n>" : "\<TAB>"
+imap <expr><TAB> neocomplcache#sources#snippets_complete#expandable() ?  "\<Plug>(neocomplcache_snippets_expand)" : pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " words less than 3 letters long aren't worth completing
 let g:neocomplcache_auto_completion_start_length = 3
@@ -48,9 +49,10 @@ autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 autocmd FileType ruby setlocal omnifunc=rubycomplete#Complete
+
 " Enable heavy omni completion.
 if !exists('g:neocomplcache_omni_patterns')
   let g:neocomplcache_omni_patterns = {}
 endif
 let g:neocomplcache_omni_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
-
+let g:neocomplcache_omni_patterns.php = '[^. \t]->\h\w*\|\h\w*::'

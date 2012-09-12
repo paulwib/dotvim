@@ -8,6 +8,10 @@
 "   Paul Willoughby <paul@fivetide.com>
 "
 
+" Problem with ordering so switch this on here first
+" @see https://github.com/dotphiles/dotvim/issues/1
+let g:neocomplcache_enable_at_startup = 1
+
 set nocompatible
 
 set encoding=utf-8
