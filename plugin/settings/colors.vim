@@ -1,1 +1,0 @@
-/Users/paul/.dotfiles/vim/colors.vim
