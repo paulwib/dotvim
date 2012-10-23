@@ -70,6 +70,7 @@ set smartcase           " do not ignore if search pattern has CAPS
 
 " directory settings
 set nobackup            " do not write backup files
+set nowritebackup       " do not write backup files
 set noswapfile          " do not write .swp files
 if has("persistent_undo")
   silent !mkdir -vp ~/.backup/vim/undo/ > /dev/null 2>&1
