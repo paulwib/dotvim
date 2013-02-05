@@ -14,4 +14,4 @@ spell
 !.dotvim
 !.gitignore
 !.gitmodules
-
+*.local
