@@ -1,8 +1,15 @@
+snippet log
+options head
+    console.log(${1:#:message});
+
 snippet :f
 options head
-  ${1:#:method_name}: function(${2:#:attribute}) {
-    ${0:TARGET}
-  }
+    /**
+     * ${3:#:doc}
+     */
+    ${1:#:method_name}: function(${2:#:attribute}) {
+        ${0:TARGET}
+    }
 
 snippet function
 alias   func
