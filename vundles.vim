@@ -77,8 +77,9 @@ endif
 " HTML
 if count(g:vundles, 'html')
   Bundle 'HTML-AutoCloseTag'
+  Bundle 'othree/html5.vim'
   Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
-  Bundle 'Handlebars'
+  Bundle 'nono/vim-handlebars'
 endif
 
 " Ruby
