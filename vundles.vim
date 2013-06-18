@@ -17,6 +17,7 @@ if count(g:vundles, 'general')
   "Bundle 'altercation/vim-colors-solarized'
   "Bundle 'spf13/vim-colors'
   Bundle 'tpope/vim-surround'
+  Bundle 'tpope/vim-repeat'
   Bundle 'AutoClose'
   Bundle 'kien/ctrlp.vim'
   Bundle 'vim-scripts/sessionman.vim'
@@ -79,7 +80,7 @@ if count(g:vundles, 'html')
   Bundle 'HTML-AutoCloseTag'
   Bundle 'othree/html5.vim'
   Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
-  Bundle 'nono/vim-handlebars'
+  Bundle 'juvenn/mustache.vim'
 endif
 
 " Ruby
