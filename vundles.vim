@@ -14,8 +14,6 @@ Bundle 'gmarik/vundle'
 " General
 if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
-  "Bundle 'altercation/vim-colors-solarized'
-  "Bundle 'spf13/vim-colors'
   Bundle 'tpope/vim-surround'
   Bundle 'tpope/vim-repeat'
   Bundle 'AutoClose'
@@ -26,6 +24,7 @@ if count(g:vundles, 'general')
   Bundle 'Lokaltog/vim-easymotion'
   Bundle 'jistr/vim-nerdtree-tabs'
   Bundle 'paulwib/vim-colorschemes'
+  Bundle 'chriskempson/base16-vim'
   Bundle 'corntrace/bufexplorer'
   Bundle 'kien/ctrlp.vim'
   Bundle 'austintaylor/vim-indentobject'
