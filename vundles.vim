@@ -93,6 +93,7 @@ if count(g:vundles, 'misc')
   " Plugin 'spf13/vim-markdown'
   Plugin 'plasticboy/vim-markdown'
   " Plugin 'spf13/vim-preview'
+  Bundle 'tpope/vim-cucumber'
   " Plugin 'tpope/vim-cucumber'
   Plugin 'Puppet-Syntax-Highlighting'
   Plugin 'ekalinin/Dockerfile.vim'
