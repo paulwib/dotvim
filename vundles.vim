@@ -9,92 +9,92 @@
 "
 
 " Vundle itself
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " General
 if count(g:vundles, 'general')
-  Bundle 'scrooloose/nerdtree'
-  Bundle 'tpope/vim-surround'
-  Bundle 'tpope/vim-repeat'
-  Bundle 'AutoClose'
-  Bundle 'kien/ctrlp.vim'
-  Bundle 'vim-scripts/sessionman.vim'
-  Bundle 'matchit.zip'
-  Bundle 'Lokaltog/vim-powerline'
-  Bundle 'Lokaltog/vim-easymotion'
-  Bundle 'jistr/vim-nerdtree-tabs'
-  Bundle 'paulwib/vim-colorschemes'
-  Bundle 'chriskempson/base16-vim'
-  Bundle 'corntrace/bufexplorer'
-  Bundle 'kien/ctrlp.vim'
-  Bundle 'austintaylor/vim-indentobject'
-  Bundle 'SearchComplete'
-  Bundle 'Zenburn'
-  Bundle 'sudo.vim'
-  Bundle 'bronson/vim-trailing-whitespace'
-  Bundle 'tpope/vim-fugitive'
+  Plugin 'scrooloose/nerdtree'
+  Plugin 'tpope/vim-surround'
+  Plugin 'tpope/vim-repeat'
+  Plugin 'AutoClose'
+  Plugin 'vim-scripts/sessionman.vim'
+  Plugin 'matchit.zip'
+  Plugin 'Lokaltog/vim-powerline'
+  Plugin 'Lokaltog/vim-easymotion'
+  Plugin 'jistr/vim-nerdtree-tabs'
+  Plugin 'paulwib/vim-colorschemes'
+  Plugin 'chriskempson/base16-vim'
+  Plugin 'corntrace/bufexplorer'
+  Plugin 'kien/ctrlp.vim'
+  Plugin 'austintaylor/vim-indentobject'
+  Plugin 'SearchComplete'
+  Plugin 'Zenburn'
+  Plugin 'sudo.vim'
+  Plugin 'bronson/vim-trailing-whitespace'
+  Plugin 'tpope/vim-fugitive'
 endif
 
 " General Programming
 if count(g:vundles, 'programming')
   " Pick one of the checksyntax, jslint, or syntastic
-  Bundle 'scrooloose/syntastic'
-  Bundle 'scrooloose/nerdcommenter'
-  Bundle 'godlygeek/tabular'
+  Plugin 'scrooloose/syntastic'
+  Plugin 'scrooloose/nerdcommenter'
+  Plugin 'godlygeek/tabular'
   if executable('ctags')
-    Bundle 'majutsushi/tagbar'
+    Plugin 'majutsushi/tagbar'
   endif
   if v:version > 700
-    Bundle 'Shougo/neocomplcache'
-    Bundle 'Shougo/neosnippet'
-    Bundle 'Indent-Guides'
+    Plugin 'Shougo/neocomplcache'
+    Plugin 'Shougo/neosnippet'
+    Plugin 'Indent-Guides'
   endif
 endif
 
 " PHP
 if count(g:vundles, 'php')
-  Bundle 'spf13/PIV'
+  Plugin 'spf13/PIV'
 endif
 
 " Python
 if count(g:vundles, 'python')
   " Pick either python-mode or pyflakes & pydoc
-  "Bundle 'klen/python-mode'
-  Bundle 'kevinw/pyflakes'
-  Bundle 'fs111/pydoc.vim'
-  Bundle 'python.vim'
-  Bundle 'python_match.vim'
-  Bundle 'pythoncomplete'
+  "Plugin 'klen/python-mode'
+  Plugin 'kevinw/pyflakes'
+  Plugin 'fs111/pydoc.vim'
+  Plugin 'python.vim'
+  Plugin 'python_match.vim'
+  Plugin 'pythoncomplete'
 endif
 
 " Javascript
 if count(g:vundles, 'javascript')
-  Bundle 'leshill/vim-json'
-  Bundle 'groenewege/vim-less'
-  Bundle 'taxilian/vim-web-indent'
+  Plugin 'leshill/vim-json'
+  Plugin 'groenewege/vim-less'
+  Plugin 'taxilian/vim-web-indent'
 endif
 
 " HTML
 if count(g:vundles, 'html')
-  Bundle 'HTML-AutoCloseTag'
-  Bundle 'othree/html5.vim'
-  Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
-  Bundle 'juvenn/mustache.vim'
+  Plugin 'HTML-AutoCloseTag'
+  Plugin 'othree/html5.vim'
+  Plugin 'ChrisYip/Better-CSS-Syntax-for-Vim'
+  Plugin 'juvenn/mustache.vim'
 endif
 
 " Ruby
 if count(g:vundles, 'ruby')
-  " Bundle 'tpope/vim-rails'
+  " Plugin 'tpope/vim-rails'
 endif
 
 " Misc
 if count(g:vundles, 'misc')
-  Bundle 'jnwhiteh/vim-golang'
-  " Bundle 'spf13/vim-markdown'
-  Bundle 'plasticboy/vim-markdown'
-  " Bundle 'spf13/vim-preview'
-  " Bundle 'tpope/vim-cucumber'
-  Bundle 'Puppet-Syntax-Highlighting'
-  Bundle 'ekalinin/Dockerfile.vim'
+  Plugin 'fatih/vim-go'
+  Plugin "elixir-lang/vim-elixir"
+  " Plugin 'spf13/vim-markdown'
+  Plugin 'plasticboy/vim-markdown'
+  " Plugin 'spf13/vim-preview'
+  " Plugin 'tpope/vim-cucumber'
+  Plugin 'Puppet-Syntax-Highlighting'
+  Plugin 'ekalinin/Dockerfile.vim'
 endif
 
