@@ -14,3 +14,4 @@ let g:ctrlp_cmd = 'CtrlP'
 set wildignore+=*/smarty_c/**
 set wildignore+=*/vendor/**
 set wildignore+=*/bower_components/**
+set wildignore+=*/node_modules/**
