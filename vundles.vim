@@ -32,6 +32,7 @@ if count(g:vundles, 'general')
   Plugin 'sudo.vim'
   Plugin 'bronson/vim-trailing-whitespace'
   Plugin 'tpope/vim-fugitive'
+  Plugin 'cakebaker/scss-syntax.vim'
 endif
 
 " General Programming
