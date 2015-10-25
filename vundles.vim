@@ -90,7 +90,7 @@ endif
 " Misc
 if count(g:vundles, 'misc')
   Plugin 'fatih/vim-go'
-  Plugin "elixir-lang/vim-elixir"
+  Plugin 'elixir-lang/vim-elixir'
   " Plugin 'spf13/vim-markdown'
   Plugin 'plasticboy/vim-markdown'
   " Plugin 'spf13/vim-preview'
