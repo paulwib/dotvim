@@ -19,13 +19,13 @@ if count(g:vundles, 'general')
   Plugin 'AutoClose'
   Plugin 'vim-scripts/sessionman.vim'
   Plugin 'matchit.zip'
-  Plugin 'Lokaltog/vim-powerline'
-  Plugin 'Lokaltog/vim-easymotion'
+  Plugin 'bling/vim-airline'
+  Plugin 'easymotion/vim-easymotion'
   Plugin 'jistr/vim-nerdtree-tabs'
   Plugin 'paulwib/vim-colorschemes'
   Plugin 'chriskempson/base16-vim'
   Plugin 'corntrace/bufexplorer'
-  Plugin 'kien/ctrlp.vim'
+  Plugin 'ctrlpvim/ctrlp.vim'
   Plugin 'austintaylor/vim-indentobject'
   Plugin 'SearchComplete'
   Plugin 'Zenburn'
@@ -33,6 +33,7 @@ if count(g:vundles, 'general')
   Plugin 'bronson/vim-trailing-whitespace'
   Plugin 'tpope/vim-fugitive'
   Plugin 'cakebaker/scss-syntax.vim'
+  Plugin 'ryanoasis/vim-devicons'
 endif
 
 " General Programming

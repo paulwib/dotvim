@@ -18,8 +18,8 @@ Edit `vimrc`
 
 And enable *vundles* to install, see plugin/settings/README.md
 
-    :BundleInstall (in vim will install plugins)
-    :BundleClean (in vim will remove unused plugins)
+    :PluginInstall (in vim will install plugins)
+    :PluginClean (in vim will remove unused plugins)
 
 General configuration
 ---------------------
