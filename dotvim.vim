@@ -131,20 +131,9 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
 Plug 'airblade/vim-gitgutter'
-" Syntax and language specific tools
-Plug 'spf13/PIV' "PHP
-Plug 'klen/python-mode'
-Plug 'pangloss/vim-javascript'
-Plug 'elzr/vim-json'
-Plug 'groenewege/vim-less'
-Plug 'ChrisYip/Better-CSS-Syntax-for-Vim'
-Plug 'othree/html5.vim'
+" Majority of syntax covered by polyglot, loaded on demand
+Plug 'sheerun/vim-polyglot'
+" Other syntax files
 Plug 'juvenn/mustache.vim'
-Plug 'tpope/vim-rails'
-Plug 'fatih/vim-go'
-Plug 'elixir-lang/vim-elixir'
-Plug 'plasticboy/vim-markdown'
-Plug 'tpope/vim-cucumber'
-Plug 'ekalinin/Dockerfile.vim'
 
 call plug#end()
