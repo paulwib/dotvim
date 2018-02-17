@@ -114,7 +114,6 @@ Plug 'easymotion/vim-easymotion'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'paulwib/vim-colorschemes'
 Plug 'corntrace/bufexplorer'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'austintaylor/vim-indentobject'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'tpope/vim-fugitive'
@@ -127,6 +126,9 @@ Plug 'majutsushi/tagbar'
 Plug 'Shougo/neocomplcache'
 Plug 'Shougo/neosnippet'
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+Plug 'mileszs/ack.vim'
 " Syntax and language specific tools
 Plug 'spf13/PIV' "PHP
 Plug 'klen/python-mode'
