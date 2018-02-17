@@ -46,6 +46,7 @@ set completeopt=menuone,preview
 set cinoptions=:0,(s,u0,U1,g0,t0 " some indentation options ':h cinoptions' for details
 set modelines=5         " number of lines to check for vim: directives at the start/end of file
 set autoindent          " automatically indent new line
+set updatetime=100      " Faster than the default 4 seconds
 
 set ts=4                " number of spaces in a tab
 set sw=4                " number of spaces for indent
@@ -129,6 +130,7 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
+Plug 'airblade/vim-gitgutter'
 " Syntax and language specific tools
 Plug 'spf13/PIV' "PHP
 Plug 'klen/python-mode'
