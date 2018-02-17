@@ -2,11 +2,6 @@
 " dotvim : https://github.com/dotphiles/dotvim
 "
 " Main dotvim config
-"
-" Authors:
-"   Ben O'Hara <bohara@gmail.com>
-"   Paul Willoughby <paul@fivetide.com>
-"
 
 " Problem with ordering so switch this on here first
 " @see https://github.com/dotphiles/dotvim/issues/1
@@ -106,16 +101,46 @@ if has("autocmd")
     \ endif
 endif
 
-" Install vundle if not already installed
-if has("user_commands")
-  " Setting up Vundle - the vim plugin bundler
-  let VundleInstalled=0
-  let vundle_readme=expand('~/.vim/bundle/vundle/README.md')
-  if !filereadable(vundle_readme)
-    echo "Installing Vundle.."
-    echo ""
-    silent !mkdir -p ~/.vim/bundle
-    silent !git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-    let VundleInstalled=1
-  endif
-endif
+" Specify plug-in directory
+call plug#begin('~/.vim/plugged')
+
+" Plugins
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'jiangmiao/auto-pairs'
+Plug 'bling/vim-airline'
+Plug 'easymotion/vim-easymotion'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'paulwib/vim-colorschemes'
+Plug 'corntrace/bufexplorer'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'austintaylor/vim-indentobject'
+Plug 'bronson/vim-trailing-whitespace'
+Plug 'tpope/vim-fugitive'
+Plug 'cakebaker/scss-syntax.vim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'scrooloose/syntastic'
+Plug 'scrooloose/nerdcommenter'
+Plug 'godlygeek/tabular'
+Plug 'majutsushi/tagbar'
+Plug 'Shougo/neocomplcache'
+Plug 'Shougo/neosnippet'
+Plug 'nathanaelkane/vim-indent-guides'
+" Syntax and language specific tools
+Plug 'spf13/PIV' "PHP
+Plug 'klen/python-mode'
+Plug 'pangloss/vim-javascript'
+Plug 'elzr/vim-json'
+Plug 'groenewege/vim-less'
+Plug 'ChrisYip/Better-CSS-Syntax-for-Vim'
+Plug 'othree/html5.vim'
+Plug 'juvenn/mustache.vim'
+Plug 'tpope/vim-rails'
+Plug 'fatih/vim-go'
+Plug 'elixir-lang/vim-elixir'
+Plug 'plasticboy/vim-markdown'
+Plug 'tpope/vim-cucumber'
+Plug 'ekalinin/Dockerfile.vim'
+
+call plug#end()
