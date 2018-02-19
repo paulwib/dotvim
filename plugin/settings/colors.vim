@@ -1,1 +1,2 @@
-colorscheme lazybee
+set background=dark
+colorscheme codedark
