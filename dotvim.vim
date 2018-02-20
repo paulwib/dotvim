@@ -132,6 +132,7 @@ Plug 'airblade/vim-gitgutter'
 
 " Syntax plug-ins
 Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 Plug 'fatih/vim-go'
 Plug 'juvenn/mustache.vim'
 Plug 'StanAngeloff/php.vim'
