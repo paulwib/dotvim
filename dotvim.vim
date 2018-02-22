@@ -121,7 +121,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'w0rp/ale'
 Plug 'scrooloose/nerdcommenter'
 Plug 'godlygeek/tabular'
-Plug 'majutsushi/tagbar'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
