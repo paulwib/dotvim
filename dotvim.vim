@@ -141,5 +141,6 @@ Plug 'mxw/vim-jsx'
 Plug 'fatih/vim-go'
 Plug 'juvenn/mustache.vim'
 Plug 'StanAngeloff/php.vim'
+Plug 'martinda/Jenkinsfile-vim-syntax'
 
 call plug#end()
