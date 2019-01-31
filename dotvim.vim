@@ -138,6 +138,7 @@ Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'aklt/plantuml-syntax'
 Plug 'wlangstroth/vim-racket'
 Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 Plug 'Quramy/tsuquyomi' " typescript tsserver integration
 
 call plug#end()
