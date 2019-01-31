@@ -135,5 +135,9 @@ Plug 'fatih/vim-go'
 Plug 'juvenn/mustache.vim'
 Plug 'StanAngeloff/php.vim'
 Plug 'martinda/Jenkinsfile-vim-syntax'
+Plug 'aklt/plantuml-syntax'
+Plug 'wlangstroth/vim-racket'
+Plug 'leafgarland/typescript-vim'
+Plug 'Quramy/tsuquyomi' " typescript tsserver integration
 
 call plug#end()
